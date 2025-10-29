@@ -24,14 +24,14 @@ export const HomePage = () => {
       date: "Sep 17, 2024",
       excerpt: "Players can transfer from Speed Server to original servers with special benefits and bonuses.",
       category: "Server",
-      image: "/images/server-transfer.png",
+      image: "/images/season21-part3.png",
     },
     {
       title: "New Guild War System Implemented",
       date: "Sep 16, 2024",
       excerpt: "Enhanced guild warfare mechanics with improved rewards and balanced gameplay for all participating guilds.",
       category: "Update",
-      image: "/images/guild-war.png",
+      image: "/images/season21-part4.png",
     }
   ];
 
