@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Calculator, Trash2, Clock, Target, Zap, BarChart3 } from 'lucide-react';
 // Importar los datos de experiencia desde el JSON
-import expData from '../data/expData.json'; // Ajusta la ruta según tu estructura
+import expData from '../../../data/expData.json'; // Ajusta la ruta según tu estructura
 
 export const ExpCalculator = () => {
   const [formData, setFormData] = useState({
