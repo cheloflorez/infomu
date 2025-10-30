@@ -13,13 +13,18 @@ export const toolsPages = () => (
           <p className="text-blue-100">Calculate experience points needed for leveling.</p>
         </div>
       </Link>
-      <Link to="/tools/build-simulator">
+      <a
+        href="https://builder.infomuonline.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="bg-red-700 p-6 rounded-xl hover:opacity-90 transition-all duration-300 hover:scale-105">
           <Sword className="w-12 h-12 text-white mb-4" />
           <h3 className="text-xl font-semibold text-white mb-2">Build Simulator</h3>
           <p className="text-red-100">Plan and simulate your character builds.</p>
         </div>
-      </Link>
+      </a>
+
     </div>
   </PageTemplate>
 );

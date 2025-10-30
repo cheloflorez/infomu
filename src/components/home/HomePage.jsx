@@ -66,7 +66,6 @@ export const HomePage = () => {
                   src={article.image}
                   alt={article.title}
                   className="absolute inset-0 w-full h-full object-cover opacity-85 transition-transform duration-500 hover:scale-110"
-                  onError={(e) => { e.currentTarget.src = '/images/default.webp'; }}
                 />
                 {/* Overlay con categoría */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col items-center justify-end pb-3">

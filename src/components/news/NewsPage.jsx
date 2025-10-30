@@ -69,7 +69,6 @@ export const NewsPage = () => {
                                             src={`/images/${article.id}.png`}
                                             alt={article.title}
                                             className="max-w-full max-h-full object-contain opacity-90"
-                                            onError={(e) => { e.currentTarget.src = '/images/default.webp'; }}
                                         />
                                         {/* Overlay opcional */}
                                         {article.featured && (
